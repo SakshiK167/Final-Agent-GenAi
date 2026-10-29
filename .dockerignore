@@ -1,0 +1,31 @@
+# Git & CI
+.git/
+.github/
+
+# Environment files & Secrets
+.env
+.env.*
+!.env.example
+*.env
+.streamlit/secrets.toml
+
+# Virtual environments & Dependencies
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache & tests
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+tests/
+
+# Documentation & IDE
+README.md
+.vscode/
+.idea/
+*.log

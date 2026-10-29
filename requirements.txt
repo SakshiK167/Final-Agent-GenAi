@@ -1,0 +1,14 @@
+# Core Application Framework
+streamlit==1.42.0
+
+# LLM Client for OpenRouter
+openai==1.65.1
+
+# Web Search via DuckDuckGo (DDGS)
+duckduckgo-search==8.1.1
+
+# Environment Variables Management (Local development)
+python-dotenv==1.0.1
+
+# Testing Framework
+pytest==8.3.4
